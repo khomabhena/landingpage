@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: serif;
+    color: #f9faf8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroSection {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    list-style: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
