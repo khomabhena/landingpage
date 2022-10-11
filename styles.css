@@ -163,3 +163,14 @@ button {
     height: 40px;
     align-self: center;
 }
+
+.copyright {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    font-size: smaller;
+    font-weight: 100;
+}
