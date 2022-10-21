@@ -11,61 +11,70 @@
     <div class="container">
         <div class="header">
             <div class="nav">
-                <div class="logo">Header Logo</div>
+                <h1 class="logo">Kho Mabhena</h1>
                 <div class="menuItems">
                     <ul>
-                        <li><a href="#">One</a></li>
-                        <li><a href="#">Two</a></li>
-                        <li><a href="#">Three</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Github</a></li>
+                        <li><a href="#">Email</a></li>
                     </ul>
                 </div>
             </div>
             <div class="heroSection">
                 <div class="leftSide">
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
-                    <button>Sign Up</button>
+                    <h1>MERN Stack Developer!</h1>
+                    <p>This website is to showcase my development skills and the projects I have developed.</p>
+                    <button>Hire Me!</button>
                 </div>
                 <div class="rightSide">
-                    <img src="images/hero.jpg" alt="hero image">
+                    <div class="imageWrap">
+                        <img src="images/hero.jpg" alt="hero image">
+                    </div>
                 </div>
             </div>
         </div>
         <div class="about">
-            <h2>About Us/More Information</h2>
+            <h2>Projects</h2>
             <div class="aboutWrap">
                 <div class="aboutContainer">
                     <div class="card"></div>
-                    <p>this is some subtext under an illustration or image</p>
+                    <p>Frontend</p>
                 </div>
                 <div class="aboutContainer">
                     <div class="card"></div>
-                    <p>this is some subtext under an illustration or image</p>
+                    <p>Backend</p>
                 </div>
                 <div class="aboutContainer">
                     <div class="card"></div>
-                    <p>this is some subtext under an illustration or image</p>
+                    <p>Fullstack</p>
                 </div>
                 <div class="aboutContainer">
                     <div class="card"></div>
-                    <p>this is some subtext under an illustration or image</p>
+                    <p>Node JS</p>
                 </div>
             </div>
         </div>
         <div class="quote">
-            <p class="pQuote">This is an inspiring quote, or a tetsimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <p class="pName">-Thor, God of Thunder</p>
+            <p class="pQuote">Kho Mabhena is a very good developer, he made our site look really beautiful, responsive and very fast to load. Now we can handle over a hundred thousand users per day without any hustle. Our revenue has increased by over 40% since he made changes to our website and backend.
+                <span class="pName"> -Dora, Event Planner</span>
+            </p>
+            
         </div>
         <div class="callToAction">
             <div class="text">
-                <p class="pCall">Call to action! It's time</p>
-                <p class="pSignup">Sign up for our product by clicking that button right over there</p>
+                <p class="pCall">Send me an email</p>
+                <p class="pSignUp">Reach out to me and let's create a lasting professional relationship.</p>
             </div>
-            <button class="bSignup">Sign Up</button>
+            <button class="bSignUp">Send Email</button>
         </div>
         <div class="copyright">
-            <p>Copyright The Odin Project 2022</p>
+            <p id="copyright"></p>
         </div>
     </div>
+
+    <script>
+        var year = new Date().getFullYear()
+        document.getElementById("copyright").innerHTML = "Copyright Kho Mabhena " + year
+    </script>
 </body>
 </html>
